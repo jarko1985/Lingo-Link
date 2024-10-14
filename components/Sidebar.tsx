@@ -30,10 +30,10 @@ const Sidebar = ({ className }: Props) => {
         <SidebarItem
           label="Leaderboard"
           href="/leaderboard"
-          iconSrc="/Leaderboard1.png"
+          iconSrc="/Leaderboard1.svg"
         />
-        <SidebarItem label="quests" href="/quests" iconSrc="/quest.png" />
-        <SidebarItem label="shop" href="/shop" iconSrc="/shop.png" />
+        <SidebarItem label="quests" href="/quests" iconSrc="/quest.svg" />
+        <SidebarItem label="shop" href="/shop" iconSrc="/shop.svg" />
       </div>
       <div className="p-4">
         <ClerkLoading>

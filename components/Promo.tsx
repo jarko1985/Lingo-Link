@@ -8,7 +8,7 @@ export const Promo = () => {
       <div className="space-y-2">
         <div className="flex items-center gap-x-2">
           <Image
-            src="/unlimited_hearts.png"
+            src="/unlimited_hearts.svg"
             alt="unlimited"
             height={26}
             width={26}
