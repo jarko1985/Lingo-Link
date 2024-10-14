@@ -15,7 +15,7 @@ export const Header = () => {
     <header className="h-20 w-full border-b-2 border-slate-200 px-4">
       <div className="lg:max-w-screen-lg mx-auto flex items-center justify-between h-full">
         <div className="pt-8 pl-2 pb-8 flex items-center gap-x-3">
-          <Image src="/logo.png" alt="logo" height="40" width="100" />
+          <Image src="/logo.svg" alt="logo" height="40" width="100" />
           <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
             Lingo Link
           </h1>

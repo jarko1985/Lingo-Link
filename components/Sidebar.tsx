@@ -19,7 +19,7 @@ const Sidebar = ({ className }: Props) => {
     >
       <Link href="/learn">
         <div className="pt-8 pl-2 pb-8 flex items-center gap-x-3">
-          <Image src="/logo.png" alt="logo" height="40" width="80" />
+          <Image src="/logo.svg" alt="logo" height="40" width="80" />
           <h1 className="text-xl font-extrabold text-green-600 tracking-wide">
             Lingo Link
           </h1>
@@ -30,7 +30,7 @@ const Sidebar = ({ className }: Props) => {
         <SidebarItem
           label="Leaderboard"
           href="/leaderboard"
-          iconSrc="/Leaderboard1.svg"
+          iconSrc="/leaderboard1.svg"
         />
         <SidebarItem label="quests" href="/quests" iconSrc="/quest.svg" />
         <SidebarItem label="shop" href="/shop" iconSrc="/shop.svg" />
