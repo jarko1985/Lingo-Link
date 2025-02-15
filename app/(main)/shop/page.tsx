@@ -21,7 +21,7 @@ const ShopPage = async () => {
 
   const isPro = !!userSubscription?.isActive;
   return (
-    <div className="flex flex-row-reverse gap-[48px] px-6">
+    <div className="flex flex-row-reverse gap-[48px] px-6 max-w-[1056px]">
       <StickyWrapper>
         <UserProgress
           activeCourse={userProgress.activeCourse}
